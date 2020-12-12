@@ -3,6 +3,7 @@
  * @Date: 2020-11-01 16:25:41
  * @Last Modified by:   lxk0301 
  * @Last Modified time: 2020-11-03 16:25:41
+ * 难受，运行不了
  */
 /*
 京豆变动通知脚本：https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js
