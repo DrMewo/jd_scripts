@@ -7,7 +7,7 @@
 脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
 ================Loon==============
 [Script]
-cron "30,31 20-23/1 26 12 2020" script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/once/jd_live_redRain_26.js, tag=超级直播间红包雨
+cron "30,31 20-23/1 26 12 2020" script-path=https://raw.githubusercontent.com/DrMewo/jd_scripts/master/Loon/jd_live_redRain_26.js, tag=超级直播间红包雨
 
 */
 const $ = new Env('超级直播间红包雨');
