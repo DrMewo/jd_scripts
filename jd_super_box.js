@@ -17,7 +17,7 @@
 20 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_super_box.js, tag=京东超级盒子, enabled=true
 ================Loon==============
 [Script]
-cron "20 7 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_super_box.js,tag=京东超级盒子
+cron "20 7 * * *" script-path=https://raw.githubusercontent.com/DrMewo/jd_scripts/master/jd_super_box.js,tag=京东超级盒子
 ===============Surge=================
 京东超级盒子 = type=cron,cronexp="20 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_super_box.js
 ============小火箭=========
