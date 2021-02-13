@@ -34,14 +34,14 @@ function cashOut() {
     $.get(
       taskUrl(
         `consume/CashOut`,
-        `ddwMoney=100&dwIsCreateToken=0&ddwMinPaperMoney=50000&strPgtimestamp=${$.currentToken['timestamp']}&strPhoneID=${$.currentToken['phoneid']}&strPgUUNum=${$.currentToken['farm_jstoken']}`
+        `ddwMoney=100&dwIsCreateToken=0&ddwMinPaperMoney=100000&strPgtimestamp=${$.currentToken['timestamp']}&strPhoneID=${$.currentToken['phoneid']}&strPgUUNum=${$.currentToken['farm_jstoken']}`
       ), 
       async (err, resp, data) => {
         try {
           $.log(data);
           const { iRet, sErrMsg } = JSON.parse(data);
           $.log(sErrMsg);
-          $.result.push(`【${$.userName}】\n ${sErrMsg == "" ? sErrMsg="今天手气太棒了" : sErrMsg}`);
+          $.result.push(`【${$.userName}】\n ${sErrMsg == "" ? sErrMsg="great" : sErrMsg}`);
           resolve(sErrMsg);
         } catch (e) {
           $.logErr(e, resp);
