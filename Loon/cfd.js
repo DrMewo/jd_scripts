@@ -41,7 +41,7 @@ function cashOut() {
           $.log(data);
           const { iRet, sErrMsg } = JSON.parse(data);
           $.log(sErrMsg);
-          $.result.push(`【${$.userName}】\n ${sErrMsg == "" ? sErrMsg="好耶！" : sErrMsg}`);
+          $.result.push(`【${$.userName}】\n ${sErrMsg == "" ? sErrMsg="great" : sErrMsg}`);
           resolve(sErrMsg);
         } catch (e) {
           $.logErr(e, resp);
